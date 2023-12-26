@@ -62,8 +62,8 @@
       state: present
 
   # - name: get the categories count
-    # # ansible.builtin.shell: mongo --host mongodb.ramakrishna.cloud --quiet --eval 'db = db.getSiblingDB("catalogue"); db.products.count()'
-      # register: product_count
+  #    ansible.builtin.shell: mongo --host mongodb.ramakrishna.cloud --quiet --eval 'db = db.getSiblingDB("catalogue"); db.products.count()'
+  #    register: product_count
 
   # - name: print the count
   #   ansible.builtin.debug:
